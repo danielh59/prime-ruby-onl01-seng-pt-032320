@@ -1,5 +1,5 @@
 def prime?(prime_numbers)
-if prime_numbers.each do |x|
+if prime_numbers.any do |x|
   x % prime_numbers == 0 
   return true 
 else

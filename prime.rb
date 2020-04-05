@@ -1,1 +1,1 @@
-prime?(prime_numbers){|x| x}
+def prime?(prime_numbers)

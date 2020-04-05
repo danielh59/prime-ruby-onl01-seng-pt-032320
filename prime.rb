@@ -5,5 +5,5 @@ if prime_numbers.each do |x|
 else
   return false 
 end
-end
+return prime?
 end
